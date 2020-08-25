@@ -6,7 +6,7 @@ print("""
 #       #   #            #  #       #  #         #          #
 #       #   #            #    #     #    #       #          #
 #########   ########     #      #   #      #     #          #
-\n Made by @SiyahMuhafız
+\n Made by @EBSSecurty
 """)
 print("www.ebubekirbastama.com"+"\n")
 import subprocess
