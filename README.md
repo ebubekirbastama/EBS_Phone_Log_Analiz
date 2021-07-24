@@ -15,10 +15,8 @@ www.ebubekirbastama.com
 # 8-) Telefondaki Bütün Apk Paket İsimleri.
 # 9-) Telefon Memori Packet Bilgileri
 # 10-) Packet İsmine Göre Memoriden Bilgi Getir.
-# 11-) Pegasus Casus Yazılım tespiti için SdCard Listesi Alma.
-<p>Not:(qqsecure dosyası varsa Hacklenmiş olabilrisiniz.)<p>
 # Neyapmak İstersin...?
- # Ücretli Destek ve Bağış Yapmak için
+# Ücretli Destek ve Bağış Yapmak için
   
   Whatshapp : https://api.whatsapp.com/send?phone=905554128854&text=Merhaba
  
