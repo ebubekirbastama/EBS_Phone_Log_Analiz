@@ -21,11 +21,11 @@ sysdump='adb.exe shell dumpsys > telefonBütün_Bilgileri.txt'
 packetdump='adb.exe shell dumpsys activity > Paketisimleri.txt'
 memdump='adb.exe  shell dumpsys meminfo > meminfo.txt'
 memdumpdetayli='adb.exe  shell dumpsys meminfo'
-komutpegasus='adb.exe  shell ls -all /sdcard/  > SdcardListe.txt'
+
 
 print("1-) Process Listeleme"+"\n"+"2-) Klasör ve Ayrıntıları Listeleme"+"\n"+"3-) Netstat Çalıştırma"+"\n"+"4-) Telefon Detaylı Versiyon Bilgileri"+"\n"+"5-) Telefon Logları Çıktı Al"
       +"\n"+"6-) Telefon Bug Report Çıktı Al"+"\n"+"7-) Bütün Telefon Sistem Bilgileri(Wifi,batarya vb.)"+"\n"+"8-) Telefondaki Bütün Apk Paket İsimleri."
-      +"\n"+"9-) Telefon Memori Packet Bilgileri"+"\n"+"10-) Packet İsmine Göre Memoriden Bilgi Getir."+"\n"+"11-) Pegasus Casus Yazılım Sdcard Liste alma"
+      +"\n"+"9-) Telefon Memori Packet Bilgileri"+"\n"+"10-) Packet İsmine Göre Memoriden Bilgi Getir."
       )
 
 numara=input("Neyapmak İstersin..."+"?\n")
@@ -86,9 +86,4 @@ elif numara == "10":
     stdout, stderr = piey.communicate()
     gelenveri = piey.communicate()
     print("Memori Bilgileri Başarılı Bir Şekilde Aktarıldı.")
-elif numara == "11":
-    print("Sdcard Dosyalar Listeleniyor...")
-    piey = subprocess.Popen(memdump, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    stdout, stderr = piey.communicate()
-    gelenveri = piey.communicate()
-    print("Sdcard Dosyalar Başarılı Bir Şekilde Aktarıldı.")
+
